@@ -2323,6 +2323,21 @@ Mobile Menu
 /*------------------------------
 Hero Banner Area
 -------------------------------*/
+.country-name {
+  display: none; /* Hide the country name by default */
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.animate__content__single:hover .country-name {
+  display: block; /* Show the country name on hover */
+}
+
 .herobannerarea {
   background: var(--darkdeep1);
   padding-top: 80px;

@@ -1,0 +1,265 @@
+.map-responsive{
+
+
+
+    overflow:hidden;
+
+
+
+    padding-bottom:56.25%;
+
+
+
+    position:relative;
+
+
+
+    height:0;
+
+
+
+}
+
+
+
+.map-responsive iframe{
+
+
+
+    left:0;
+
+
+
+    top:0;
+
+
+
+    height:100%;
+
+
+
+    width:100%;
+
+
+
+    position:absolute;
+
+
+
+}
+
+
+
+
+
+
+
+ @keyframes fa-blink {
+
+     0% { opacity: 1; }
+
+     25% { opacity: 0.25; }
+
+     50% { opacity: 0.5; }
+
+     75% { opacity: 0.75; }
+
+     100% { opacity: 0; }
+
+ }
+
+.fa-blink {
+
+   -webkit-animation: fa-blink .75s linear infinite;
+
+   -moz-animation: fa-blink .75s linear infinite;
+
+   -ms-animation: fa-blink .75s linear infinite;
+
+   -o-animation: fa-blink .75s linear infinite;
+
+   animation: fa-blink .75s linear infinite;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.butt {
+
+  background-color: #fff;
+
+  border: none;
+
+  color: black;
+
+  padding: 10px 20px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  margin: 4px 2px;
+
+  cursor: pointer;
+
+  border-radius: 16px;
+
+  
+
+}
+
+
+
+.butt:hover {
+
+  color: #fff;
+
+  background-color: #000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.scroll-top-wrapper {
+
+    position: fixed;
+
+	opacity: 0;
+
+	visibility: hidden;
+
+	overflow: hidden;
+
+	text-align: center;
+
+	z-index: 99999999;
+
+    background-color: #777777;
+
+	color: #eeeeee;
+
+	width: 100px;
+
+	height: 45px;
+
+	line-height: 45px;
+
+	right: 30px;
+
+	bottom: 30px;
+
+	padding-top: 2px;
+
+	border-top-left-radius: 10px;
+
+	border-top-right-radius: 10px;
+
+	border-bottom-right-radius: 10px;
+
+	border-bottom-left-radius: 10px;
+
+	-webkit-transition: all 0.5s ease-in-out;
+
+	-moz-transition: all 0.5s ease-in-out;
+
+	-ms-transition: all 0.5s ease-in-out;
+
+	-o-transition: all 0.5s ease-in-out;
+
+	transition: all 0.5s ease-in-out;
+
+}
+
+.scroll-top-wrapper:hover {
+
+	background-color: #000;
+
+}
+
+.scroll-top-wrapper.show {
+
+    visibility:visible;
+
+    cursor:pointer;
+
+	opacity: 1.0;
+
+}
+
+.scroll-top-wrapper i.fa {
+
+	line-height: inherit;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 767px) {
+
+
+
+.site-navbar.sticky-top  {
+
+		background-color:#3276B1;
+
+	}
+
+
+
+	}
+
+ */
+
+
+ /* .style{
+     overflow-x: hidden;
+ } */
+
+
+
+
+
+
+
+
+
+ 
+
