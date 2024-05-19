@@ -3051,7 +3051,7 @@ Hero Banner Area
   height: 100%;
   width: 100%;
   content: "";
-  opacity: 0.7;
+  opacity: 0.3;
   z-index: 9;
 }
 .herobannerarea.herobannerarea__university .swiper.university__slider__thumb {
@@ -4548,7 +4548,7 @@ Popular Area
   margin-bottom: 30px;
 }
 .best__categories__item:hover .best__categories__link {
-  background-color: var(--secondaryColor);
+  background-color: var(--eastccolor);
   color: var(--whiteColor);
 }
 .best__categories__item:hover .best__categories__name {
