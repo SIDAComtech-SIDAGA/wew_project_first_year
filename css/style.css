@@ -3865,7 +3865,7 @@ About Area
 }
 
 .aboutarea__5__img {
-  background-image: url(../img/about/about_8.png);
+  background-image: url(./img/about/about_8.png);
   position: relative;
 }
 .aboutarea__5__img img {
@@ -5912,7 +5912,7 @@ Event
 Register Area
 -------------------------------*/
 .registerarea {
-  background-image: url(../img/register/register__bg.png);
+  background-image: url(./img/register/register__bg.png);
   position: relative;
   margin-bottom: 150px;
 }
